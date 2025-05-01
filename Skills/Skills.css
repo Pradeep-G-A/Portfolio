@@ -1,0 +1,127 @@
+
+.skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+  margin-top: 20px;
+
+    
+  }
+  
+  .skill-card1 {
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    height:250px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?t=st=1746021111~exp=1746024711~hmac=15e1d1c7acbbcc38fd7a1ecead96c3d5f7af7eb02e3eb904538dfd7cfa07989a&w=1380);
+    background-size:cover ;
+    background-repeat: no-repeat;
+  }
+  .skill-card1:hover{
+      color: #000000;
+      background-image:url(https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg?t=st=1746017772~exp=1746021372~hmac=00e38cf046ca882ab6ef1810f5a5739782d3e47f7204058811c17e2ffa75aa74&w=1380);
+  }
+  .skill-card {
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    height:250px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color:transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(/public/backend.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+  }
+  .skill-card:hover{
+    color: #000000;
+    background-image:url(https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg?t=st=1746017772~exp=1746021372~hmac=00e38cf046ca882ab6ef1810f5a5739782d3e47f7204058811c17e2ffa75aa74&w=1380);
+}
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 2);
+  }
+  .skill-card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 2);
+  }
+  .skill-card-title
+  {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+
+
+.skills-section {
+    padding: 0px 20px;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .skills-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 90px;
+    color: #ffffff;
+    background: linear-gradient(to right, #7b2ff7, #00d4ff);
+   
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .category-title {
+    font-size: 1.8rem;
+    margin: 30px 0 20px;
+    color: #1d9465;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .skills-card {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  
+  .skills-card p {
+    font-size: 0.95rem;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .skills-card:hover {
+    transform: scale(1.1);
+  }
+  
